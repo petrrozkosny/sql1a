@@ -1,0 +1,101 @@
+CREATE TABLE  data_old (
+
+       [TIME] int NOT NULL,
+
+       [Code 2021] NCHAR(200) NOT NULL,
+       [AGE] NCHAR(50) NOT NULL,
+
+       [VALUE] int,
+
+      
+
+       [GENDER] NCHAR(20) NOT NULL,
+
+       CONSTRAINT unique_row_old_data UNIQUE ([TIME],[Code 2021],[AGE],[GENDER])
+
+       );
+
+ 
+
+CREATE TABLE  data_new (
+
+       [TIME] int NOT NULL,
+
+       [Code 2021] NCHAR(200) NOT NULL,
+
+      
+
+       [AGE] NCHAR(50) NOT NULL,
+
+       [VALUE] int,
+
+      
+
+       [GENDER] NCHAR(20) NOT NULL,
+
+CONSTRAINT unique_row_new_data UNIQUE ([TIME],[Code 2021],[AGE],[GENDER]));
+
+ 
+
+ 
+
+CREATE TABLE dim_geo (
+
+       [Code 2021] VARCHAR(100),
+
+       [NUTS level] int,
+
+       [NUTS level 3] NCHAR(100),
+
+       [NUTS level 2] NCHAR(100),
+
+       [NUTS level 1] NCHAR(150))
+
+ 
+BULK INSERT dim_geo
+FROM ''
+
+WITH(
+
+       FIRSTROW = 2,
+
+       FIELDTERMINATOR = ';',
+
+       ROWTERMINATOR = '\n'
+
+             )
+
+
+BULK INSERT data_new
+FROM ''
+
+WITH(
+
+       FIRSTROW = 2,
+
+       FIELDTERMINATOR = ';',
+
+       ROWTERMINATOR = '\n'
+
+             )
+ 
+
+BULK INSERT data_new
+FROM ''
+
+WITH(
+
+       FIRSTROW = 2,
+
+       FIELDTERMINATOR = ';',
+
+       ROWTERMINATOR = '\n'
+
+             )
+
+
+--DROP TABLE data_old
+
+--DROP TABLE data_new
+
+--DROP TABLE dim_geo
