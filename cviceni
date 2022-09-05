@@ -1,0 +1,53 @@
+Cviceni1
+
+1. Vyberte všechny řádky a sloupce z tabulky data_new
+2. Vyberte sloupce TIME, Code 2021, VALUE z tabulky data_new
+3. Vyberte sloupce TIME, Code 2021, VALUE z tabulky data_new, kde TIME = 2021
+4. Vyberte všechny řádky a sloupce z tabulky data_new, kde GENDER = Females
+
+Cviceni2
+5. Vyberte sloupce TIME, Code 2021, VALUE z tabulky data_new, kdy sloupci VALUE dejte alias pocet obyvatel
+6. Vyberte maximum ze sloupce VALUE, dejte sloupci VALUE alias maximální počet obyvatel
+7. Vyberte sloupce TIME, Code 2021, VALUE z tabulky data_new, kde TIME je větší či rovno 2016 a Code 2021 je CZ080
+8. Vyberte sloupce TIME, Code 2021, VALUE z tabulky data_new, kde TIME je větší či rovno 2016 a Code 2021 je CZ080 nebo CZ032
+9. Vyberte sloupce TIME, Code 2021, VALUE z tabulky data_new, kde TIME je mezi 2016 a 2019 a Code 2021 je CZ080 nebo CZ032 a GENDER je Females
+
+ 
+
+Cviceni3
+10. Sumarizujte tabulku data_new dle TIME, vyberte sumu VALUE, sloupci dejte alias suma pocet obyvatel
+11. Sumarizujte tabulku data_new dle TIME a Code 2021, vyberte sumu VALUE, sloupci dejte alias suma pocet obyvatel
+12. Sumarizujte tabulku data_new dle TIME a Code 2021, vyberte sumu VALUE (sloupec pojmenujte suma pocet obyvatel) kde Gender je Females , sloupci dejte alias suma pocet obyvatel zeny
+13. Sumarizujte tabulku data_new dle TIME, Code 2021, vyberte sumu VALUE (sloupec pojmenujte suma pocet obyvatel), max VALUE (sloupec pojmenujte max pocet obyvatel) kde Gender je Females
+14. Sumarizujte tabulku data_new dle TIME, Code 2021, vyberte sumu VALUE (sloupec pojmenujte suma pocet obyvatel), max VALUE (sloupec pojmenujte max pocet obyvatel) kde Gender je Females, TIME mezi 2017 a 2020 a Code 2021 je CZ080 nebo CZ032
+
+Cviceni4
+15. Vyberte všechny sloupce z tabulky dim_geo, kde NUTS level3 konci na kraj
+16. Vyberte všechny sloupce z tabulky dim_geo, kde NUTS level2 neobsahuje zapad
+17. Vyberte všechny sloupce z tabulky dim_geo, kde NUTS level3 neobsahuje praha a Nuts level2 neobsahuje extra
+18. Sumarizujte tabulku data_new dle TIME, vyberte sumu VALUE, sloupci dejte alias suma pocet obyvatel, tabulku filtrujte tak,
+aby TIME byl mezi 2016 - 2020, gender byl Males a AGE obsahovalo 40 nebo 45, tabulku seradte sestupne dle suma pocet obyvatel
+
+Cviceni5
+19. Spojte zleva tabulky data_new a dim_geo pres sloupec Code 2021, vyberte následně všechny sloupce spojene tabulky
+20. Vnitrnim spojenim spojte tabulky data_new a dim_geo pres sloupec Code 2021, vyberte následně všechny sloupce spojené tabulky
+21. Vyberte sloupce code 2021 tabulky data_new a dim_geo poté, co je spojíte zleva přes code 2021
+22. Sumarizujte zleva spojené tabulky data_new a dim_geo, najděte max hodnotu ve Value dle TIME a NUTS Level2, kde gender = Male
+
+Cviceni6
+23. Připojte pod sebe tabulky data_new a data_old, vyberte všechny sloupce spojené tabulky
+24. Připojte pod sebe tabulky data_new a data_old, vyberte sloupce Code 2021, kdy Gender = Females
+25. Připojte pod sebe tabulky data_new a data_old, novou tabulku seřaďte sestupně dle VALUE, kde Gender = Females a AGE obsahuje 40 nebo 45
+26. Připojte pod sebe tabulky data_new a data_old, novou tabulku spojte zleva s tabulkou dim_geo
+27. Připojte pod sebe tabulky data_new a data_old, novou tabulku spojte zleva s tabulkou dim_geo, následně filtrujte, kdy NUTS level 3 neobsahuje praha, vyberte všechny sloupce
+28. Vyberte sloupce code 2021, NUTS Level 3, Value, TIME, Gender, AGE tabulky, která vznikla následujícím způsobem:
+	- připojení tabulek data_new a data_old
+	- spojení nové tabulky zleva s tabulkou dim_geo
+	- filtrování NUTS level 2 na hodnoty neobsahující zapad
+	- seřazení sestupně dle sloupce VALUE
+
+Cviceni7
+29. Vyberte sloupce TIME, VALUE, GENDER tabulky data_old filtrovanou na maximální rok této tabulky
+30. Vyberte sloupce TIME, VALUE, GENDER tabulky data_old filtrovanou na maximální rok této tabulky a gender Females
+
+
