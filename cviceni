@@ -17,9 +17,12 @@ Cviceni2
 Cviceni3
 10. Sumarizujte tabulku data_new dle TIME, vyberte sumu VALUE, sloupci dejte alias suma pocet obyvatel
 11. Sumarizujte tabulku data_new dle TIME a Code 2021, vyberte sumu VALUE, sloupci dejte alias suma pocet obyvatel
-12. Sumarizujte tabulku data_new dle TIME a Code 2021, vyberte sumu VALUE (sloupec pojmenujte suma pocet obyvatel) kde Gender je Females , sloupci dejte alias suma pocet obyvatel zeny
-13. Sumarizujte tabulku data_new dle TIME, Code 2021, vyberte sumu VALUE (sloupec pojmenujte suma pocet obyvatel), max VALUE (sloupec pojmenujte max pocet obyvatel) kde Gender je Females
-14. Sumarizujte tabulku data_new dle TIME, Code 2021, vyberte sumu VALUE (sloupec pojmenujte suma pocet obyvatel), max VALUE (sloupec pojmenujte max pocet obyvatel) kde Gender je Females, TIME mezi 2017 a 2020 a Code 2021 je CZ080 nebo CZ032
+12. Sumarizujte tabulku data_new dle TIME a Code 2021, vyberte sumu VALUE (sloupec pojmenujte suma pocet obyvatel)
+kde Gender je Females , sloupci dejte alias suma pocet obyvatel zeny
+13. Sumarizujte tabulku data_new dle TIME, Code 2021, vyberte sumu VALUE (sloupec pojmenujte suma pocet obyvatel),
+max VALUE (sloupec pojmenujte max pocet obyvatel) kde Gender je Females
+14. Sumarizujte tabulku data_new dle TIME, Code 2021, vyberte sumu VALUE (sloupec pojmenujte suma pocet obyvatel),
+max VALUE (sloupec pojmenujte max pocet obyvatel) kde Gender je Females, TIME mezi 2017 a 2020 a Code 2021 je CZ080 nebo CZ032
 
 Cviceni4
 15. Vyberte všechny sloupce z tabulky dim_geo, kde NUTS level3 konci na kraj
