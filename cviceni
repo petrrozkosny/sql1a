@@ -50,7 +50,18 @@ Cviceni6
 	- seřazení sestupně dle sloupce VALUE
 
 Cviceni7
-29. Vyberte sloupce TIME, VALUE, GENDER tabulky data_old filtrovanou na maximální rok této tabulky
-30. Vyberte sloupce TIME, VALUE, GENDER tabulky data_old filtrovanou na maximální rok této tabulky a gender Females
+29. Sumarizujte tabulku data_old. Spočítejte minimální VALUE a maximální VALUE pro jednotlivé Code 2021, Gender, Age v letech 2015 - 2018
+30. V tabulce dim_geo filtrujte hodnoty, které mají ve sloupci Nuts level 3 NEBO Nuts level 2 hodnotu extra
+31. Spojte tabulky data_old a dim_geo (zachovejte všechny hodnoty z levé tabulky), následně vyberte Nuts level 3, VALUE
+32. Spojte tabulky data_old a dim_geo (zajímají nás hodnoty, které jsou v obou tabulkách), následně vyberte sumu VALUE dle Nuts level 2 v roce 2016
+33. Připojte tabulky data_new a data_old, vyberte všechny sloupce obou tabulek (tabulky připojte tak, aby neobsahovaly duplicity)
+34. Vytvořte dotaz, který na výstupu zobrazí všechny unikátní hodnoty ze sloupce TIME tabulek data_new a data_old
+35. Vytvořte dotaz, který na výstupu zobrazí sumu VALUE z data_new sumarizovanou dle Nuts level 2 pro věkové skupiny, u nichž hranice
+intervalu věku začíná na 2 nebo 3
+36. Vytvořte dotaz, který zobrazí 3 nuts level 2 s největší sumou VALUE v roce 2015 (tj. tabulka data_old), vynechte nuts level 2 obsahující "praha".
+Na výstupu ať je vidět i uživatelem (vámi) vytvoený sloupec "zdroj dat", ve kterém bude hodnota 'data_old' (tj. statický text)
+
+
+
 
 
