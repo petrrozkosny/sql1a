@@ -1,0 +1,19 @@
+--40
+SELECT  t.TIME
+FROM (
+SELECT * FROM data_new
+UNION
+SELECT * FROM data_old) as t
+
+WHERE t.VALUE = 
+	
+	(
+
+	SELECT MAX(tt.VALUE) FROM
+	(SELECT * FROM data_new
+		UNION
+	SELECT * FROM data_old) AS tt
+	WHERE tt.[Code 2021] =  'CZ010'
+	AND tt.GENDER = 'Females'
+	AND tt.AGE = 'From 35 to 39 years'
+	)
