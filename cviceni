@@ -74,6 +74,21 @@ Cviceni7
 44. Vypiste radky z data_new, kde VALUE je vetsi ci rovno nektere z 3 nejvyssich hodnot ze sloupce VALUE tabulky data_old
 
 
+Cviceni 8
+45. Vybrat vsechny sloupce z srazky, dopocitat sloupec "teplota", pokud hodnota TMIN byla mensi 0, tak "mrzlo"
+jinak "nemrzlo"
+46. Vybrat vsechny sloupce z srazky, dopocitat sloupec "typ teploty", 
+pokud TMAX < 0, "mrzlo"
+pokud TMAX <10, "zima"
+pokud TMAX <20, tak "prumer"
+jinak "teplo"
+
+47. Vybrat vsechny sloupce z srazky, dopocitat rozdil mezi TAVG a TMIN do noveho sloupce
+Pokud TAVG je prazdne, tak 0, pokud je TMIN prazdne, tak TAVG, pokud je i TAVG prazdne tak 0
+
+48. Pro NAME = MOSNOV spocitat pocet dnu, ve kterych mrzlo a ve kterych nemrzlo
+
+
 
 
 
