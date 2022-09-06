@@ -62,6 +62,18 @@ intervalu věku začíná na 2 nebo 3
 Na výstupu ať je vidět i uživatelem (vámi) vytvoený sloupec "zdroj dat", ve kterém bude hodnota 'data_old' (tj. statický text)
 
 
+Cviceni7
+
+37. Data sumarizovana dle TIME, NUTS LEVEL 2 z tabulek data_new a data_old, dim_geo kde na vystupu bude SUMA VALUE vetsi 1000000
+38. Data sumarizovana dle NUTS Level 2 a GENDER pro maximalni rok z data_new, kde chceme agregovat SUM nad VALUE
+39. Data z data_new a data_old, kde VALUE je vetsi nez prumer VALUE posledniho roku data_new
+40. Ve kterych letech mely GENDER = 'Females' a AGE = 'From 35 to 39 years' v Code 2021 = CZ010 maximalni VALUE?
+41. Jaka byla SUM VALUE jednotlivych NUTS level 2 v maximalnim roce data_new?
+42. Ktere pohlavi melo v maximalnim roce data_new vetsi SUM VALUE v NUTS Level 3, ktere neobsahuji extra NEBO praha?
+43. Vypiste unikatni VALUE z data_new, ktere jsou vetsi nez tri nejmensi VALUE z data_new
+44. Vypiste radky z data_new, kde VALUE je vetsi ci rovno nektere z 3 nejvyssich hodnot ze sloupce VALUE tabulky data_old
+
+
 
 
 
