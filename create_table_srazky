@@ -1,0 +1,28 @@
+CREATE table srazky (
+STATION NCHAR(20),
+NAME NCHAR(20),
+[DATE]  date,
+PRCP float,
+SNWD float,
+TAVG float,
+TMAX float,
+TMIN float
+)
+
+
+BULK INSERT srazky
+
+FROM 'C:\Users\Student\Desktop\srazky-data.csv'
+
+WITH(
+
+       FIRSTROW = 2,
+
+       FIELDTERMINATOR = ';',
+
+       ROWTERMINATOR = '\n'
+
+             )
+
+ 
+ --DROP TABLE srazky
